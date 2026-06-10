@@ -1,0 +1,13 @@
+Name: phantom-octave
+Version: 1.0.0
+Date: 2026-06-10
+Author: Mohammad Abu Thaher Chowdhury <chowdm4@rpi.edu>
+Maintainer: Mohammad Abu Thaher CHowdhury <chowdm4@rpi.edu>
+Title: PHANTOM Octave Package
+Description: Dark matter halo profiles, concentration relations,
+ halo mass functions, and cosmological utilities for the PHANTOM
+ simulation framework.
+Depends: octave >= 4.5.0
+Suggests: optim
+License: GPL-3.0-or-later
+Url: https://github.com/matc-thaher/PHANTOM_oct
