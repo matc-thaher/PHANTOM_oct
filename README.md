@@ -8,7 +8,7 @@ Profile &amp; Halo Analysis for Numerous Theoretical Dark Matter
 
 Install directly from GitHub:
 ```octave
-pkg install "https://github.com/matc-thaher/phantom-octave/archive/refs/heads/main.zip"
+pkg install "https://github.com/matc-thaher/PHANTOM_oct/archive/refs/heads/main.zip"
 pkg load phantom-octave
 ```
 
