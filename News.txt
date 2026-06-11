@@ -1,8 +1,0 @@
-Summary of important user-visible changes for phantom-octave:
-
-Version 1.0.0 (2026-06-10):
-* Initial release of PHANTOM Octave package.
-* Includes profiles, concentration, HMF, cosmology, and FDM utilities.
-* Compatible with Octave >= 4.5.0.
-* colossus_query requires Octave >= 7.0 (jsonencode dependency).
-* fit_profile_generic requires the optim package (pkg install -forge optim).
