@@ -8,6 +8,5 @@ Description: Dark matter halo profiles, concentration relations,
  halo mass functions, and cosmological utilities for the PHANTOM
  simulation framework.
 Depends: octave >= 4.5.0
-Suggests: optim
 License: GPL-3.0-or-later
 Url: https://github.com/matc-thaher/PHANTOM_oct
