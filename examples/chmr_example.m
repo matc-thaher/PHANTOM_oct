@@ -1,0 +1,20 @@
+
+here     = fileparts(mfilename('fullpath'));        % F:\PHANTOM\tests
+repo     = fullfile(here, '..');                   % F:\PHANTOM
+chmr_path = fullfile(repo, 'src', 'chmr');
+addpath(genpath(chmr_path));
+
+
+% values
+H = 70.2; 
+Omega_M0 = 0.2720;
+m_eV = 0.8e-22;
+scale_factor = 1;
+zeta = 357.6746;
+zeta_0 = 357.6746;                    % at redshift=0, zeta = zeta_o
+rho_crit0 = 2.8e11 * (H/100)^2;
+M_min0    = 4.4e7 * (m_eV/1e-22)^(-1.5) * (Omega_M0/0.27)^(-0.25) * (H/70)^0.5;
+Mh_grid   = logspace(5, 11, length(scale_factor));
+
+Mc     = schive_CHMR(Mh_grid, scale_factor, zeta, zeta_0, M_min0);
+Mc_new = thaher_CHMR(Mh_grid, scale_factor, zeta, zeta_0, M_min0, 1.5, 2);
