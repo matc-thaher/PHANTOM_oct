@@ -1,5 +1,0 @@
-dirs = {"utils", "concentration", "profiles", "halo", "fdm", "fittings", "hmf"};
-here = fileparts (mfilename ("fullpath"));
-for i = 1:numel (dirs)
-  addpath (fullfile (here, dirs{i}));
-endfor
